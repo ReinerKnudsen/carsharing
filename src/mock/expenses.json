@@ -1,0 +1,21 @@
+[
+	{
+		"id":1,
+		"driver":1,
+		"car":1,
+		"date": "2024-07-17",
+		"km": 22410,
+		"amount": 52.80,
+		"type":1
+	},
+	{
+		"id":2,
+		"driver":3,
+		"car":1,
+		"date": "2024-07-24",
+		"km": 22630,
+		"amount": 4.60,
+		"type":4,
+		"description": "Zwei Duftbäume"
+	}
+]
