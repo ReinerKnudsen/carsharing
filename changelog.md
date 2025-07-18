@@ -12,11 +12,7 @@ Patch: Everything else → bumps patch version (1.0.0 → 1.0.1)
 
 ### Added
 
-- mock data for all entities (db.json)
-- generic fetch function for json-server
-- routing for the app
-- header and footer sections
-- home page with list of trips
+-
 
 ### Changed
 
@@ -25,3 +21,13 @@ Patch: Everything else → bumps patch version (1.0.0 → 1.0.1)
 ### Fixed
 
 -
+
+## [0.0.1] - 2025-07-18
+
+### Added
+
+- mock data for all entities (db.json)
+- generic fetch function for json-server
+- routing for the app
+- header and footer sections
+- home page with list of trips
