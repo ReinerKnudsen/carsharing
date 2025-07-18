@@ -1,14 +1,14 @@
 [
-	{
-		"id":1,
-		"brand":"Audi",
-		"model":"A4",
-		"licensePlate":"BN-AH2290"
-	},
-	{
-		"id":2,
-		"brand": "Skoda",
-		"model": "Fabia",
-		"licensePlate": "BN-WL981"
-	}
+  {
+    "id": 1,
+    "brand": "Audi",
+    "model": "A4",
+    "licensePlate": "BN-AH2290"
+  },
+  {
+    "id": 2,
+    "brand": "Skoda",
+    "model": "Fabia",
+    "licensePlate": "BN-WL981"
+  }
 ]

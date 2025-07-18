@@ -1,0 +1,157 @@
+{
+  "groups": [
+    {
+      "id": 1,
+      "brand": "Audi",
+      "model": "A4",
+      "licensePlate": "BN-AH2290"
+    },
+    {
+      "id": 2,
+      "brand": "Skoda",
+      "model": "Fabia",
+      "licensePlate": "BN-WL981"
+    }
+  ],
+  "drivers": [
+    {
+      "id": 1,
+      "firstname": "Jens",
+      "lastname": "Huber",
+      "group": 1
+    },
+    {
+      "id": 2,
+      "firstname": "Tanja",
+      "lastname": "Huber",
+      "group": 1
+    },
+    {
+      "id": 3,
+      "firstname": "Frank",
+      "lastname": "Wollter",
+      "group": 2
+    },
+    {
+      "id": 4,
+      "firstname": "Rebecca",
+      "lastname": "Wollter",
+      "group": 2
+    }
+  ],
+  "cars": [
+    {
+      "id": 1,
+      "brand": "Audi",
+      "model": "A4",
+      "licensePlate": "BN-AH2290"
+    },
+    {
+      "id": 2,
+      "brand": "Skoda",
+      "model": "Fabia",
+      "licensePlate": "BN-WL981"
+    }
+  ],
+  "bookings": [
+    {
+      "id": 1,
+      "startdate": "2024-07-30",
+      "enddate": "2024-07-31",
+      "group": 1,
+      "comment": "Werkstatt"
+    },
+    {
+      "id": 2,
+      "startdate": "2024-08-05",
+      "enddate": "2004-08-10",
+      "group": 2
+    }
+  ],
+  "expenses": [
+    {
+      "id": 1,
+      "driver": 1,
+      "car": 1,
+      "date": "2024-07-17",
+      "km": 22410,
+      "amount": 52.8,
+      "type": 1
+    },
+    {
+      "id": 2,
+      "driver": 3,
+      "car": 1,
+      "date": "2024-07-24",
+      "km": 22630,
+      "amount": 4.6,
+      "type": 4,
+      "description": "Zwei Duftbäume"
+    }
+  ],
+  "expense-types": [
+    {
+      "id": 1,
+      "name": "tanken"
+    },
+    {
+      "id": 2,
+      "name": "waesche"
+    },
+    {
+      "id": 3,
+      "name": "wartung"
+    },
+    {
+      "id": 4,
+      "name": "sonstiges"
+    }
+  ],
+  "trips": [
+    {
+      "id": 1,
+      "driver": 1,
+      "car": 1,
+      "startdate": "2024-07-17",
+      "enddate": "2024-07-17",
+      "startkm": 22300,
+      "endkm": 22420,
+      "amount": 18.0
+    },
+    {
+      "id": 2,
+      "driver": 1,
+      "car": 1,
+      "startdate": "2024-07-19",
+      "enddate": "2024-07-21",
+      "startkm": 22420,
+      "endkm": 22581,
+      "amount": 24.15
+    },
+    {
+      "id": 3,
+      "driver": 2,
+      "car": 1,
+      "startdate": "2024-07-21",
+      "enddate": "2024-07-21",
+      "startkm": 22581,
+      "endkm": 22599,
+      "amount": 2.7
+    },
+    {
+      "id": 4,
+      "driver": 3,
+      "car": 1,
+      "startdate": "2024-07-24",
+      "enddate": "2024-07-25",
+      "startkm": 22599,
+      "endkm": 22632,
+      "amount": 4.95
+    }
+  ],
+  "appsettings": [
+    {
+      "rate": 0.15
+    }
+  ]
+}
