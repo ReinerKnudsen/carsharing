@@ -20,7 +20,7 @@ createRoot(document.getElementById('root')).render(
             element={<Home />}
           />
           <Route
-            path='/booking'
+            path='/bookings'
             element={<Booking />}
           />
           <Route
@@ -28,7 +28,7 @@ createRoot(document.getElementById('root')).render(
             element={<Account />}
           />
           <Route
-            path='/trip'
+            path='/trips'
             element={<Trip />}
           />
         </Route>
