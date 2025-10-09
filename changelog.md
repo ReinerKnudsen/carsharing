@@ -12,8 +12,7 @@ Patch: Everything else → bumps patch version (1.0.0 → 1.0.1)
 
 ### Added
 
-- list of trips
-- navigation button to new trip
+-
 
 ### Changed
 
@@ -23,6 +22,12 @@ Patch: Everything else → bumps patch version (1.0.0 → 1.0.1)
 
 -
 
+## [0.1.0] - 2025-10-09
+
+### Added
+
+- list of trips
+- navigation button to new trip
 ## [0.0.1] - 2025-07-18
 
 ### Added

@@ -1,7 +1,7 @@
 {
 	"name": "carsharing",
 	"private": true,
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"type": "module",
 	"scripts": {
 		"dev": "concurrently \"vite\" \"json-server --watch src/mock/db.json --port 3000\"",
