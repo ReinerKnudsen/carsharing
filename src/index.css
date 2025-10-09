@@ -124,3 +124,30 @@
 			'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   }
 }
+
+@layer components {
+  h1 {
+    font-weight: 600;
+    font-size: 1.5rem;
+
+  }
+
+  h2 {
+    font-weight: 600;
+    font-size: 1.25rem;
+  }
+
+  /* Tables */
+  .cell-left {
+    text-align: left;
+    padding: 0 4px;
+  }
+  .cell-right {
+    text-align: right;
+    padding: 0 4px;
+  }
+  .cell-center {
+    text-align:center;
+    padding: 0 4px;
+  }
+}

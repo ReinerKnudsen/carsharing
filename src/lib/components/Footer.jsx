@@ -3,7 +3,7 @@ import { Link } from 'react-router';
 
 export function Footer() {
   return (
-    <div className='fixed bottom-0 left-0 right-0 flex flex-row justify-between items-center px-8 py-4'>
+    <div className='fixed bottom-4 left-10 right-10 flex flex-row justify-between items-center px-8 py-6 border-t-2 border-slate-200'>
       <Link to='/'>{<House />}</Link>
       <Link to='/trips'>{<Map />}</Link>
       <Link to='/bookings'>{<CalendarDays />}</Link>

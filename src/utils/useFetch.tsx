@@ -15,7 +15,7 @@ const useFetch = (url: string): UseFetchResult => {
     const fetchData = async () => {
       try {
         // Simulate delay
-        await new Promise(resolve => setTimeout(resolve, 1000));
+        await new Promise(resolve => setTimeout(resolve, 500));
 
         const res = await fetch(url);
         if (!res.ok) {

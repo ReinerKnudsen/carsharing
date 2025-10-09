@@ -15,7 +15,7 @@ function App() {
         paddingRight: 'env(safe-area-inset-right)',
       }}>
       <Header />
-      <main className='flex-1 py-8'>
+      <main className='flex-1 py-4'>
         <Outlet />
       </main>
       <Footer />

@@ -111,6 +111,7 @@
     {
       "id": 1,
       "driver": 1,
+      "group": 1,
       "car": 1,
       "startdate": "2024-07-17",
       "enddate": "2024-07-17",
@@ -121,6 +122,7 @@
     {
       "id": 2,
       "driver": 1,
+      "group": 1,
       "car": 1,
       "startdate": "2024-07-19",
       "enddate": "2024-07-21",
@@ -131,6 +133,7 @@
     {
       "id": 3,
       "driver": 2,
+      "group": 1,
       "car": 1,
       "startdate": "2024-07-21",
       "enddate": "2024-07-21",
@@ -141,12 +144,35 @@
     {
       "id": 4,
       "driver": 3,
+      "group": 2,
       "car": 1,
       "startdate": "2024-07-24",
       "enddate": "2024-07-25",
       "startkm": 22599,
       "endkm": 22632,
       "amount": 4.95
+    },
+    {
+      "id": 5,
+      "driver": 4,
+      "group": 2,
+      "car": 1,
+      "startdate": "2024-08-01",
+      "enddate": "2024-08-03",
+      "startkm": 22632,
+      "endkm": 22877,
+      "amount": 36.75
+    },
+    {
+      "id": 6,
+      "driver": 1,
+      "group": 1,
+      "car": 1,
+      "startdate": "2024-08-05",
+      "enddate": "2024-08-05",
+      "startkm": 22877,
+      "endkm": 22980,
+      "amount": 10.5
     }
   ],
   "appsettings": [
