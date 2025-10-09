@@ -1,4 +1,5 @@
 import useFetch from '../utils/useFetch';
+import { Button } from '../components/ui/button';
 
 export default function Trip() {
   const { data: driversData } = useFetch('http://localhost:3000/drivers');
@@ -78,6 +79,13 @@ export default function Trip() {
               ))}
             </tbody>
           </table>
+          <div className='py-8 flex justify-center'>
+            <Button
+              variant='accent'
+              size='lg'>
+              Neue Fahrt erstellen
+            </Button>
+          </div>
         </div>
       )}
     </section>
